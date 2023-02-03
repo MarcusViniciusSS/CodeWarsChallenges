@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarsChallenges", "CodeWarsChallenges\CodeWarsChallenges.csproj", "{A201A151-4343-4C05-8D97-1DE23F73A5FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A201A151-4343-4C05-8D97-1DE23F73A5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A201A151-4343-4C05-8D97-1DE23F73A5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A201A151-4343-4C05-8D97-1DE23F73A5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A201A151-4343-4C05-8D97-1DE23F73A5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
