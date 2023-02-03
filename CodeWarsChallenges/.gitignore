@@ -1,0 +1,25 @@
+# Binaries
+/CodeWarsChallenges/obj
+/CodeWarsChallenges/bin
+
+
+
+# Visual Studio generated files
+CodeWarsChallenges/.vscode/
+CodeWarsChallenges/.idea/
+.idea/
+.vs/
+*.suo
+*.user
+
+# Build artifacts
+*.log
+
+# NuGet Packages
+/packages/
+
+# .NET global tools
+.tool-versions
+
+# .NET Core user secrets
+*.csproj.user
