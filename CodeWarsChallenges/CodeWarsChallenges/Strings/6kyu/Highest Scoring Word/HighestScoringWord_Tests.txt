@@ -1,0 +1,8 @@
+["what time are we climbing up to the volcano"];["volcano"]
+["man i need a taxi up to ubud"];["taxi"]
+["take me to semynak"];["semynak"]
+["aa b"];["aa"]
+["b aa"];["b"]
+["bb d"];["bb"]
+["d bb"];["d"]
+["aaa b"];["aaa"]

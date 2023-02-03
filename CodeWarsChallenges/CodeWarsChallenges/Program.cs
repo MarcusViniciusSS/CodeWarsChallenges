@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlgTester.API;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
+using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
 
 {
@@ -13,4 +14,10 @@ using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
     
     var sLargest = LargestElements.Largest;
     SolutionTester.New().WithSolution(sLargest).Run();
+}
+
+{
+    Console.Write("6kyu  --- Strings -----");
+    var sHighest = HighestScoringWord.High;
+    SolutionTester.New().WithSolution(sHighest).Run();
 }
