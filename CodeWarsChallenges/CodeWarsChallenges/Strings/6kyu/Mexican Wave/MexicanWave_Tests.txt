@@ -1,0 +1,5 @@
+["hello"];[["Hello","hEllo", "heLlo", "helLo", "hellO"]]
+["codewars"];[["Codewars", "cOdewars", "coDewars", "codEwars", "codeWars", "codewArs", "codewaRs", "codewarS"]]
+["two words"];[["Two words", "tWo words", "twO words", "two Words", "two wOrds", "two woRds", "two worDs", "two wordS"]]
+[" gap "];[[" Gap ", " gAp ", " gaP "]]
+["abracadabra"];[["Abracadabra", "aBracadabra", "abRacadabra", "abrAcadabra", "abraCadabra", "abracAdabra", "abracaDabra", "abracadAbra", "abracadaBra", "abracadabRa","abracadabrA"]]
