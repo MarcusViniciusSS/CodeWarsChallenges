@@ -5,6 +5,7 @@ using CodeWarsChallenges.Array._6kyu.Two_Sum;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
 using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
+using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
 
 {
@@ -26,6 +27,9 @@ using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
     
     var sWave = MexicanWave.Wave;
     SolutionTester.New().WithSolution(sWave).Run();
+    
+    var sDup = StringArrayDuplicate.dup;
+    SolutionTester.New().WithSolution(sDup).Run();
 }
 
 {
