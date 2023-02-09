@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlgTester.API;
+using CodeWarsChallenges.Algorithms._6kyu.SumOfParts;
 using CodeWarsChallenges.Array._6kyu.MultiplicationTable;
 using CodeWarsChallenges.Array._6kyu.Two_Sum;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
@@ -39,4 +40,10 @@ using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
     
     var sIndex = TwoSum.GetIndex;
     SolutionTester.New().WithSolution(sIndex).Run();
+}
+
+{
+    Console.WriteLine("6kyu  --- Algorithms -----");
+    var partsSums = SumOfParts.PartsSums;
+    SolutionTester.New().WithSolution(partsSums).Run();
 }
