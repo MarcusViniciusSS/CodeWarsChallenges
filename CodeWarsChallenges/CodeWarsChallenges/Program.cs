@@ -5,6 +5,7 @@ using CodeWarsChallenges.Array._5kyu.MovingZerosToTheEnd;
 using CodeWarsChallenges.Array._6kyu.MultiplicationTable;
 using CodeWarsChallenges.Array._6kyu.Two_Sum;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
+using CodeWarsChallenges.Strings._5kyu.ROT13;
 using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
@@ -53,4 +54,10 @@ using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
     Console.WriteLine("5kyu  --- Arrays -----");
     var sMoveZeroes = MoveZerosToTheEnd.MoveZeroes;
     SolutionTester.New().WithSolution(sMoveZeroes).Run();
+}
+
+{
+    Console.WriteLine("5kyu  --- Strings -----");
+    var sEncrypt = ROT13.Encrypt;
+    SolutionTester.New().WithSolution(sEncrypt).Run();
 }
