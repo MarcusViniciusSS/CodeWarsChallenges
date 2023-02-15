@@ -6,11 +6,19 @@ using CodeWarsChallenges.Array._6kyu.Array.Diff;
 using CodeWarsChallenges.Array._6kyu.MultiplicationTable;
 using CodeWarsChallenges.Array._6kyu.Two_Sum;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
+using CodeWarsChallenges.Array._8kyu.SumOfOddNumber;
 using CodeWarsChallenges.Strings._5kyu.ROT13;
 using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
+
+{
+    Console.WriteLine("8kyu  --- Arrays -----");
+    
+    var sumOddNumbers = SumOfOddNumber.RowSumOddNumbers;
+    SolutionTester.New().WithSolution(sumOddNumbers).Run();
+}
 
 {
     Console.WriteLine("7kyu  --- Strings -----");
