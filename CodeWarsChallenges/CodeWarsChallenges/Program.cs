@@ -12,6 +12,7 @@ using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
+using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
 {
     Console.WriteLine("8kyu  --- Arrays -----");
@@ -19,6 +20,14 @@ using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
     var sumOddNumbers = SumOfOddNumber.RowSumOddNumbers;
     SolutionTester.New().WithSolution(sumOddNumbers).Run();
 }
+
+{
+    Console.WriteLine("8kyu  --- string -----");
+
+    var sRepeat = StringRepeat.Repeat;
+    SolutionTester.New().WithSolution(sRepeat).Run();
+}
+
 
 {
     Console.WriteLine("7kyu  --- Strings -----");
