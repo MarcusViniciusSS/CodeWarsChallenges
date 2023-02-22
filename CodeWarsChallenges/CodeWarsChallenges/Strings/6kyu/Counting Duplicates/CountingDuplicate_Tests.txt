@@ -1,0 +1,6 @@
+[""];[0]
+["abcde"];[0]
+["aabbcde"];[2]
+["aabBcde"];[2]
+["Indivisibility"];[1]
+["Indivisibilities"];[2]
