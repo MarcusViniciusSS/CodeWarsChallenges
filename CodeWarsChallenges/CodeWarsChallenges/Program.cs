@@ -14,6 +14,7 @@ using CodeWarsChallenges.Strings._6kyu.Counting_Duplicates;
 using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
+using CodeWarsChallenges.Strings._7kyu.BinaryAddition;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
 using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
@@ -42,10 +43,11 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     Console.WriteLine("7kyu  --- Strings -----");
     var sMultiply = MultiplyWordInString.ModifyMultiply;
     SolutionTester.New().WithSolution(sMultiply).Run();
-    
+
+    var sBinaryAddition = BinaryAddition.AddBinary;
+    SolutionTester.New().WithSolution(sBinaryAddition).Run();
     
     Console.WriteLine("7kyu  --- Arrays -----");
-    
     var sLargest = LargestElements.Largest;
     SolutionTester.New().WithSolution(sLargest).Run();
 }
