@@ -16,6 +16,7 @@ using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
 using CodeWarsChallenges.Strings._7kyu.BinaryAddition;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
+using CodeWarsChallenges.Strings._7kyu.VowelCount;
 using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
 {
@@ -46,6 +47,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sBinaryAddition = BinaryAddition.AddBinary;
     SolutionTester.New().WithSolution(sBinaryAddition).Run();
+
+    var sVowelCount = VowelCount.GetVowelCount;
+    SolutionTester.New().WithSolution(sVowelCount);
     
     Console.WriteLine("7kyu  --- Arrays -----");
     var sLargest = LargestElements.Largest;
