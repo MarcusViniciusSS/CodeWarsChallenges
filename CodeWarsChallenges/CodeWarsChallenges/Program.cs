@@ -15,6 +15,7 @@ using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
 using CodeWarsChallenges.Strings._7kyu.BinaryAddition;
+using CodeWarsChallenges.Strings._7kyu.ComplementaryDNA;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
 using CodeWarsChallenges.Strings._7kyu.VowelCount;
 using CodeWarsChallenges.Strings._8kyu.String_Repeat;
@@ -50,6 +51,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sVowelCount = VowelCount.GetVowelCount;
     SolutionTester.New().WithSolution(sVowelCount);
+
+    var sComplementaryDNA = ComplementaryDNA.MakeComplement;
+    SolutionTester.New().WithSolution(sComplementaryDNA).Run();
     
     Console.WriteLine("7kyu  --- Arrays -----");
     var sLargest = LargestElements.Largest;
