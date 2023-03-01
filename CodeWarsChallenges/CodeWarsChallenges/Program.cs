@@ -16,6 +16,7 @@ using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
 using CodeWarsChallenges.Strings._7kyu.BinaryAddition;
 using CodeWarsChallenges.Strings._7kyu.ComplementaryDNA;
+using CodeWarsChallenges.Strings._7kyu.Get_The_Middle_Character;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
 using CodeWarsChallenges.Strings._7kyu.VowelCount;
 using CodeWarsChallenges.Strings._8kyu.String_Repeat;
@@ -54,6 +55,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sComplementaryDNA = ComplementaryDNA.MakeComplement;
     SolutionTester.New().WithSolution(sComplementaryDNA).Run();
+
+    var sGetTheMiddleCharacter = GetTheMiddleCharacter.GetMiddle;
+    SolutionTester.New().WithSolution(sGetTheMiddleCharacter).Run();
     
     Console.WriteLine("7kyu  --- Arrays -----");
     var sLargest = LargestElements.Largest;
