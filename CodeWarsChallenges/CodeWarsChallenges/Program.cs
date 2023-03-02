@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlgTester.API;
 using CodeWarsChallenges.Algorithms._6kyu.SumOfParts;
+using CodeWarsChallenges.Algorithms._8kyu.Keep_Hydrated;
 using CodeWarsChallenges.Array._5kyu.MovingZerosToTheEnd;
 using CodeWarsChallenges.Array._6kyu.Array.Diff;
 using CodeWarsChallenges.Array._6kyu.MultiplicationTable;
@@ -39,6 +40,10 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sRepeat = StringRepeat.Repeat;
     SolutionTester.New().WithSolution(sRepeat).Run();
+    
+    Console.WriteLine("8kyu  --- Algorithms -----");
+    var sLitres = KeepHydrated.Litres;
+    SolutionTester.New().WithSolution(sLitres).Run();
 }
 
 
