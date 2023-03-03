@@ -1,0 +1,4 @@
+["Martin"];["Martin does not play banjo"]
+["bravo"];["bravo does not play banjo"]
+["rolf"];["rolf plays banjo"]
+["Rikke"];["Rikke plays banjo"]
