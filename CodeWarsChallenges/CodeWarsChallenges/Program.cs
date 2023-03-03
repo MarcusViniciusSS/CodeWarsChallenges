@@ -20,6 +20,7 @@ using CodeWarsChallenges.Strings._7kyu.ComplementaryDNA;
 using CodeWarsChallenges.Strings._7kyu.Get_The_Middle_Character;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
 using CodeWarsChallenges.Strings._7kyu.VowelCount;
+using CodeWarsChallenges.Strings._8kyu.AreYouPlayBanjo;
 using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
 {
@@ -44,8 +45,10 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     Console.WriteLine("8kyu  --- Algorithms -----");
     var sLitres = KeepHydrated.Litres;
     SolutionTester.New().WithSolution(sLitres).Run();
+    
+    var sBanjo = AreYouPlayBanjo.AreYouPlayingBanjo;
+    SolutionTester.New().WithSolution(sBanjo).Run();
 }
-
 
 {
     Console.WriteLine("7kyu  --- Strings -----");
