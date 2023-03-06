@@ -12,6 +12,7 @@ using CodeWarsChallenges.Array._8kyu.Square_n_Sum;
 using CodeWarsChallenges.Array._8kyu.SumOfOddNumber;
 using CodeWarsChallenges.Strings._5kyu.ROT13;
 using CodeWarsChallenges.Strings._6kyu.Counting_Duplicates;
+using CodeWarsChallenges.Strings._6kyu.Detect_Pangram;
 using CodeWarsChallenges.Strings._6kyu.Highest_Scoring_Word;
 using CodeWarsChallenges.Strings._6kyu.Mexican_Wave;
 using CodeWarsChallenges.Strings._6kyu.String_Array_Duplicates;
@@ -85,6 +86,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sDuplicateCount = CountingDuplicate.Count;
     SolutionTester.New().WithSolution(sDuplicateCount).Run();
+
+    var sDetectPangram = DetectPangram.IsPangram;
+    SolutionTester.New().WithSolution(sDetectPangram).Run();
 }
 
 {
