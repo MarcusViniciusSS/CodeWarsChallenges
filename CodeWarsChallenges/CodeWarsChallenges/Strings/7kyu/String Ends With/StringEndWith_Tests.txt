@@ -1,0 +1,7 @@
+["samurai", "ai"];[true]
+["sumo", "omo"];[false]
+["ninja", "ja"];[true]
+["sensei", "i"];[true]
+["samurai", "ra"];[false]
+["abc", "abcd"];[false]
+["abc", "abc"];[true]
