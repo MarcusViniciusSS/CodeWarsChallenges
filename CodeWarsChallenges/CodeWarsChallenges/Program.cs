@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlgTester.API;
 using CodeWarsChallenges.Algorithms._6kyu.SumOfParts;
+using CodeWarsChallenges.Algorithms._6kyu.Unique_In_Order;
 using CodeWarsChallenges.Algorithms._8kyu.Keep_Hydrated;
 using CodeWarsChallenges.Array._5kyu.MovingZerosToTheEnd;
 using CodeWarsChallenges.Array._6kyu.Array.Diff;
@@ -124,6 +125,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     Console.WriteLine("6kyu  --- Algorithms -----");
     var partsSums = SumOfParts.PartsSums;
     SolutionTester.New().WithSolution(partsSums).Run();
+
+    var sUniqueInOrderEnumerable = UniqueInOrderEnumerable.UniqueInOrder<int>;
+    SolutionTester.New().WithSolution(sUniqueInOrderEnumerable).Run();
 }
 
 {
