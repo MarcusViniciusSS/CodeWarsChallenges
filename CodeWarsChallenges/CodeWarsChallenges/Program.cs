@@ -2,6 +2,7 @@
 using AlgTester.API;
 using CodeWarsChallenges.Algorithms._6kyu.SumOfParts;
 using CodeWarsChallenges.Algorithms._6kyu.Unique_In_Order;
+using CodeWarsChallenges.Algorithms._7kyu.Sum_Of_The_First_nth_term_of_Series;
 using CodeWarsChallenges.Algorithms._8kyu.Keep_Hydrated;
 using CodeWarsChallenges.Array._5kyu.MovingZerosToTheEnd;
 using CodeWarsChallenges.Array._6kyu.Array.Diff;
@@ -86,6 +87,10 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     Console.WriteLine("7kyu  --- Arrays -----");
     var sLargest = LargestElements.Largest;
     SolutionTester.New().WithSolution(sLargest).Run();
+    
+    Console.WriteLine("7kyu  --- Algorithms -----");
+    var sSeriesSum = SumOfTheFirstNthTermOfSeries.seriesSum;
+    SolutionTester.New().WithSolution(sSeriesSum).Run();
 }
 
 {
