@@ -1,0 +1,6 @@
+["aretheyhere","yestheyarehere"];["aehrsty"]
+["loopingisfunbutdangerous","lessdangerousthancoding"];["abcdefghilnoprstu"]
+["inmanylanguages","theresapairoffunctions"];["acefghilmnoprstuy"]
+["lordsofthefallen","gamekult"];["adefghklmnorstu"]
+["codewars", "codewars"];["acdeorsw"]
+["agenerationmustconfrontthelooming","codewarrs"];["acdefghilmnorstuw"]
