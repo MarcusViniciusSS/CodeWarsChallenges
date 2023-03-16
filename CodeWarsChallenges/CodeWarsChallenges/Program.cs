@@ -10,6 +10,7 @@ using CodeWarsChallenges.Array._6kyu.Find_The_Odd_Int;
 using CodeWarsChallenges.Array._6kyu.MultiplicationTable;
 using CodeWarsChallenges.Array._6kyu.Two_Sum;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
+using CodeWarsChallenges.Array._8kyu.Count_By_X;
 using CodeWarsChallenges.Array._8kyu.Count_Of_Positives_and_Sum_Negatives;
 using CodeWarsChallenges.Array._8kyu.CountingSheep;
 using CodeWarsChallenges.Array._8kyu.Square_n_Sum;
@@ -45,6 +46,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sCountPositivesSumNegatives = CountPositivesSumNegatives.CountOfPositivesSumNegatives;
     SolutionTester.New().WithSolution(sCountPositivesSumNegatives).Run();
+
+    var sCountByX = CountByX.CountBy;
+    SolutionTester.New().WithSolution(sCountByX).Run();
 }
 
 {
