@@ -26,6 +26,7 @@ using CodeWarsChallenges.Strings._7kyu.ComplementaryDNA;
 using CodeWarsChallenges.Strings._7kyu.Get_The_Middle_Character;
 using CodeWarsChallenges.Strings._7kyu.Jaden_Casing_Strings;
 using CodeWarsChallenges.Strings._7kyu.Multiply_Word_In_String;
+using CodeWarsChallenges.Strings._7kyu.Mumbling;
 using CodeWarsChallenges.Strings._7kyu.String_Ends_With;
 using CodeWarsChallenges.Strings._7kyu.Two_to_One;
 using CodeWarsChallenges.Strings._7kyu.VowelCount;
@@ -91,6 +92,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     
     var sLongest = TwoToOne.Longest;
     SolutionTester.New().WithSolution(sLongest).Run();
+    
+    var sMumbling = Mumbling.Accum;
+    SolutionTester.New().WithSolution(sMumbling).Run();
     
     Console.WriteLine("7kyu  --- Arrays -----");
     var sLargest = LargestElements.Largest;
