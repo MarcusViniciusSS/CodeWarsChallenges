@@ -1,0 +1,4 @@
+[["hello"]];["hello"]
+[["hello", "world"]];["hello world"]
+[["hello", "amazing", "world"]];["hello amazing world"]
+[["this", "is", "a", "really", "long", "sentence"]];["this is a really long sentence"]
