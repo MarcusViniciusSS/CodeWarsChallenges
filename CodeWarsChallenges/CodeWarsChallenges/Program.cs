@@ -31,6 +31,7 @@ using CodeWarsChallenges.Strings._7kyu.String_Ends_With;
 using CodeWarsChallenges.Strings._7kyu.Two_to_One;
 using CodeWarsChallenges.Strings._7kyu.VowelCount;
 using CodeWarsChallenges.Strings._8kyu.AreYouPlayBanjo;
+using CodeWarsChallenges.Strings._8kyu.Sentence_Smash;
 using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
 {
@@ -61,6 +62,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     
     var sBanjo = AreYouPlayBanjo.AreYouPlayingBanjo;
     SolutionTester.New().WithSolution(sBanjo).Run();
+
+    var sSmash = SentenceSmash.Smash;
+    SolutionTester.New().WithSolution(sSmash).Run();
     
     Console.WriteLine("8kyu  --- Algorithms -----");
     var sLitres = KeepHydrated.Litres;
