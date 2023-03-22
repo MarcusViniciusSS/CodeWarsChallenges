@@ -10,6 +10,7 @@ using CodeWarsChallenges.Array._6kyu.Find_The_Odd_Int;
 using CodeWarsChallenges.Array._6kyu.MultiplicationTable;
 using CodeWarsChallenges.Array._6kyu.Two_Sum;
 using CodeWarsChallenges.Array._7kyu.Largest_Elements;
+using CodeWarsChallenges.Array._7kyu.Sum_Of_Two_lowest_positive_integers;
 using CodeWarsChallenges.Array._8kyu.Count_By_X;
 using CodeWarsChallenges.Array._8kyu.Count_Of_Positives_and_Sum_Negatives;
 using CodeWarsChallenges.Array._8kyu.CountingSheep;
@@ -103,6 +104,9 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
     Console.WriteLine("7kyu  --- Arrays -----");
     var sLargest = LargestElements.Largest;
     SolutionTester.New().WithSolution(sLargest).Run();
+    
+    var sSumTwoSmallestNumbers = SumTwoLowestPositiveIntegers.sumTwoSmallestNumbers;
+    SolutionTester.New().WithSolution(sSumTwoSmallestNumbers).Run();
     
     Console.WriteLine("7kyu  --- Algorithms -----");
     var sSeriesSum = SumOfTheFirstNthTermOfSeries.seriesSum;
