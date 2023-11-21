@@ -4,22 +4,15 @@
     {
         public static long digPow(int n, int p)
         {
-            string digits = n.ToString();
-            int total = 0;
-
-            for (int i = 0; i < digits.Length; i++)
-            {
-                total += (int)Math.Pow(int.Parse(digits[i].ToString()), p + i);
-            }
+            var digits = n.ToString();
+            var total = digits.Select((t, i) => (int) Math.Pow(int.Parse(t.ToString()), p + i)).Sum();
 
             if (total % n == 0)
             {
                 return total / n;
             }
-            else
-            {
-                return -1;
-            }
+            
+            return -1;
         }
     }
 }
