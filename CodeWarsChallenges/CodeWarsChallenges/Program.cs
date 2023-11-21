@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlgTester.API;
+using CodeWarsChallenges.Algorithms._6kyu.PlayingWithDigits;
 using CodeWarsChallenges.Algorithms._6kyu.SumOfParts;
 using CodeWarsChallenges.Algorithms._6kyu.Unique_In_Order;
 using CodeWarsChallenges.Algorithms._7kyu.Sum_Of_The_First_nth_term_of_Series;
@@ -153,12 +154,17 @@ using CodeWarsChallenges.Strings._8kyu.String_Repeat;
 
     var sUniqueInOrderEnumerable = UniqueInOrderEnumerable.UniqueInOrder<int>;
     SolutionTester.New().WithSolution(sUniqueInOrderEnumerable).Run();
+
+    var sPlayingWithDigits = PlayingWithDigits.digPow;
+    SolutionTester.New().WithSolution(sPlayingWithDigits).Run();
 }
 
 {
     Console.WriteLine("5kyu  --- Arrays -----");
     var sMoveZeroes = MoveZerosToTheEnd.MoveZeroes;
     SolutionTester.New().WithSolution(sMoveZeroes).Run();
+    
+
 }
 
 {
